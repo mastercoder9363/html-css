@@ -1,0 +1,15 @@
+from django.shortcuts import render
+from .models import *
+from frontend import *
+from django.views.generic import *
+
+def indexx(request):
+    posts = Post.objects.all()
+    
+    content = {
+        "posts": posts
+    }
+    return render(request, 'index.html', content)
+
+class AboutView(TemplateView):
+    template_name = 'about.html'
