@@ -6,4 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', indexx),
     path('about/', AboutView.as_view()),
+    path('contact/', ContactView.as_view())
 ]
