@@ -6,5 +6,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', indexx),
     path('about/', AboutView.as_view()),
-    path('contact/', ContactView.as_view())
+    path('contact/', ContactView.as_view()),
+    path('author/', AuthorView.as_view()),
 ]

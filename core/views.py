@@ -15,3 +15,5 @@ class AboutView(TemplateView):
     template_name = 'about.html'
 class ContactView(TemplateView):
     template_name = 'contact.html'
+class AuthorView(TemplateView):
+    template_name = 'author.html'
