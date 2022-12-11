@@ -17,3 +17,7 @@ class ContactView(TemplateView):
     template_name = 'contact.html'
 class AuthorView(TemplateView):
     template_name = 'author.html'
+class IndexfullView(TemplateView):
+    template_name = 'index-full.html'
+class Indexfullleft(TemplateView):
+    template_name = 'index-full-left.html'
