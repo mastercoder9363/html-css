@@ -19,5 +19,9 @@ class AuthorView(TemplateView):
     template_name = 'author.html'
 class IndexfullView(TemplateView):
     template_name = 'index-full.html'
-class Indexfullleft(TemplateView):
+class IndexfullleftView(TemplateView):
     template_name = 'index-full-left.html'
+class IndexfullrightView(TemplateView):
+    template_name = 'index-full-right.html'
+class IndexlistView(TemplateView):
+    template_name = 'index-list.html'
