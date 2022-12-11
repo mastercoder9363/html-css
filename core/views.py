@@ -25,3 +25,17 @@ class IndexfullrightView(TemplateView):
     template_name = 'index-full-right.html'
 class IndexlistView(TemplateView):
     template_name = 'index-list.html'
+class IndexlistleftView(TemplateView):
+    template_name = 'index-list-left.html'
+class IndexlistrightView(TemplateView):
+    template_name = 'index-list-right.html'
+class Postdetails1View(TemplateView):
+    template_name = 'post-details-1.html'
+class Postdetails2View(TemplateView):
+    template_name = 'post-details-2.html'
+class PostelementsView(TemplateView):
+    template_name = 'post-elements.html'
+class PrivacypolicyView(TemplateView):
+    template_name = 'privacy-policy.html'
+class TermsconditionsView(TemplateView):
+    template_name = 'terms-conditions.html'
